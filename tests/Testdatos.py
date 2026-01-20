@@ -1,6 +1,8 @@
 import unittest
-from src.logica.datos import Datos
+from src.logica.Datos import Datos
 
 
 class TestDatos(unittest.TestCase):
-    pass
+    def test_conjunto_vacio_retornaNone(self):
+        datos = Datos([])
+        self.assertIsNone(Datos.desviacion(self))

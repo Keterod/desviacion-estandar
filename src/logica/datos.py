@@ -2,5 +2,5 @@ class Datos:
     def __init__(self, datos):
         self.__datos = datos
 
-    def promedio(self):
+    def desviacion(self):
         return False
