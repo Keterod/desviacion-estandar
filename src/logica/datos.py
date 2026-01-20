@@ -3,4 +3,8 @@ class Datos:
         self.__datos = datos
 
     def desviacion(self):
-        return None
+        if len(self.__datos) == 1:
+            return 0
+        else:
+            return None
+
